@@ -25,5 +25,9 @@ print("Hello world")
 ```
 {% endcode %}
 
+#### gitbook.io link:
+
+{% embed url="https://xueming-x-xu.gitbook.io/personal-notes/" %}
+
 
 
