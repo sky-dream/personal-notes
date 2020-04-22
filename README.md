@@ -17,13 +17,11 @@ $ Brick Mover
  keep healthy, 坚持锻炼身体。
 {% endhint %}
 
-Once you're strong enough, save the world:
-
-hello\_world
+Hello world !
 
 {% code title="hello\_world.py" %}
 ```python
-print("hello world")
+print("Hello world")
 ```
 {% endcode %}
 
