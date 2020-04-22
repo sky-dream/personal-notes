@@ -2,5 +2,9 @@
 
 ## Tool link as below
 
-{% embed url="https://github.com/sky-dream/ArxmlNetSignalInfoExportTool" %}
+{% hint style="info" %}
+[https://github.com/sky-dream/ArxmlNetSignalInfoExportTool](https://github.com/sky-dream/ArxmlNetSignalInfoExportTool)
+{% endhint %}
+
+
 
