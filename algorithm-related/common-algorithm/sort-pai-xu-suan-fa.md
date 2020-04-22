@@ -222,7 +222,7 @@ def partition(array, beg, end):
 | 快速排序 | O\(n^2\) | O\(n\*log2n\) | 不稳定 | O\(log2n\)~O\(n\) |
 | 堆排序 | O\(n\*log2n\) | O\(n\*log2n\) | 不稳定 | O\(1\) |
 
-![](../../.gitbook/assets/pi-zhu-20200423-004403%20%285%29.png)
+![](../../.gitbook/assets/pi-zhu-20200423-004403sortoverview.png)
 
 * 均按从小到大排列
 * k代表数值中的"数位"个数
