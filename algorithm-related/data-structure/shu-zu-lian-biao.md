@@ -8,7 +8,7 @@
 
 **二维数组**，对应于数学上的[矩阵](https://zh.wikipedia.org/wiki/%E7%9F%A9%E9%99%A3)概念，可表示为二维矩形格。例如：![{\displaystyle a={\begin{bmatrix}3&amp;6&amp;2\\0&amp;1&amp;-4\\2&amp;-1&amp;0\end{bmatrix}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/f3fe7cbb32984a8abfa8a8c364ad767599f8a6c9)
 
-在[C语言](https://zh.wikipedia.org/wiki/C%E8%AF%AD%E8%A8%80)中表示为`int a[3][3] = {{3, 6, 2}, {0, 1, -4}, {2, -1, 0}};
+在[C语言](https://zh.wikipedia.org/wiki/C%E8%AF%AD%E8%A8%80)中表示为\`int a\[3\]\[3\] = ;
 
 ![](../../.gitbook/assets/pi-zhu-20200423-004403.png)
 
@@ -67,7 +67,7 @@
 
 双向链表
 
-![](../../.gitbook/assets/pi-zhu-20200423-004403%20%285%29.png)
+![](../../.gitbook/assets/pi-zhu-20200423-004403%20%286%29.png)
 
 时间复杂度
 
