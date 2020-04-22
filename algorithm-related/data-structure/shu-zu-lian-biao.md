@@ -10,11 +10,11 @@
 
 在[C语言](https://zh.wikipedia.org/wiki/C%E8%AF%AD%E8%A8%80)中表示为`int a[3][3] = {{3, 6, 2}, {0, 1, -4}, {2, -1, 0}};`。
 
-![](../../.gitbook/assets/pi-zhu-20200423-004403.png)
-
 ![](../../.gitbook/assets/pi-zhu-20200423-004403%20%282%29.png)
 
 ![](../../.gitbook/assets/pi-zhu-20200423-004403%20%284%29.png)
+
+![](../../.gitbook/assets/pi-zhu-20200423-004403%20%286%29.png)
 
 ## 链表
 
@@ -55,7 +55,7 @@
 
 单链表
 
-![](../../.gitbook/assets/pi-zhu-20200423-004403%20%281%29.png)
+![](../../.gitbook/assets/pi-zhu-20200423-004403%20%283%29.png)
 
 链表的插入
 
@@ -69,5 +69,5 @@
 
 时间复杂度
 
-![](../../.gitbook/assets/pi-zhu-20200423-004403%20%283%29.png)
+![](../../.gitbook/assets/pi-zhu-20200423-004403%20%285%29.png)
 
