@@ -27,5 +27,7 @@ print("Hello world")
 
 **gitbook.io link:**
 
-{% embed url="https://xueming-x-xu.gitbook.io/personal-notes/" caption="" %}
+{% hint style="info" %}
+\*\*\*\*[**https://xueming-x-xu.gitbook.io/personal-notes/**](https://xueming-x-xu.gitbook.io/personal-notes/)\*\*\*\*
+{% endhint %}
 
