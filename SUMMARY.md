@@ -20,6 +20,7 @@
 * [Programing language related](programing-language-related/README.md)
   * [Python](programing-language-related/python/README.md)
     * [Python Basic Knowledge](programing-language-related/python/python-basic-knowledge.md)
+    * [Python reference link](programing-language-related/python/python-reference-link.md)
   * [c\_cpp](programing-language-related/cpp.md)
   * [Java](programing-language-related/java.md)
 * [Automotive related](automotive-related/README.md)
