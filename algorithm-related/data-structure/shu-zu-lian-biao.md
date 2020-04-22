@@ -63,7 +63,7 @@
 
 链表的删除
 
-![](../../.gitbook/assets/pi-zhu-20200423-004952%20%281%29.png)
+![](../../.gitbook/assets/pi-zhu-20200423-025408linklistdelete.png)
 
 双向链表
 
