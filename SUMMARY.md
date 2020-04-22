@@ -1,5 +1,5 @@
 # Table of contents
 
-* [personal-notes](README.md)
+* [Introduction](README.md)
 * [Readme](readme.md)
 
