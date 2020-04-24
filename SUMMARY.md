@@ -15,7 +15,8 @@
     * [BFS广度优先搜索](algorithm-related/common-algorithm/bfs-guang-du-you-xian-sou-suo.md)
     * [BinarySearch二分查找算法](algorithm-related/common-algorithm/binarysearch-er-fen-cha-zhao-suan-fa.md)
     * [DP动态规划](algorithm-related/common-algorithm/dp-dong-tai-gui-hua.md)
-  * [Algorithm problems](algorithm-related/algorithm-problems.md)
+  * [Algorithm problems](algorithm-related/algorithm-problems/README.md)
+    * [leet code 269](algorithm-related/algorithm-problems/leet-code-269.md)
   * [Algorithm Info share Link](algorithm-related/algorithm-info-share-link.md)
 * [Programing language related](programing-language-related/README.md)
   * [Python](programing-language-related/python/README.md)
@@ -26,4 +27,6 @@
   * [Vehicle related](automotive-related/vehicle-related.md)
   * [AUTOSAR](automotive-related/autosar/README.md)
     * [arxml net signal decode tool](automotive-related/autosar/arxml-net-signal-decode-tool.md)
+* [Tools related](tools-related/README.md)
+  * [VS code](tools-related/vs-code.md)
 
