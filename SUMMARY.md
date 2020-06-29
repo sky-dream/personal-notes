@@ -7,6 +7,7 @@
     * [堆栈](algorithm-related/data-structure/dui-zhan.md)
     * [队列](algorithm-related/data-structure/dui-lie-1.md)
     * [优先队列](algorithm-related/data-structure/you-xian-dui-lie.md)
+    * [UnionFind并查集](algorithm-related/data-structure/unionfind-bing-cha-ji.md)
   * [Common algorithm](algorithm-related/common-algorithm/README.md)
     * [Sort 排序算法](algorithm-related/common-algorithm/sort-pai-xu-suan-fa.md)
     * [拓补排序](algorithm-related/common-algorithm/tuo-bu-pai-xu/README.md)
