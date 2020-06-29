@@ -2,7 +2,7 @@
 
  **优先队列**是[计算机科学](https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6)中的一类[抽象数据类型](https://zh.wikipedia.org/wiki/%E6%8A%BD%E8%B1%A1%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B)。优先队列中的每个元素都有各自的优先级，优先级最高的元素最先得到服务；优先级相同的元素按照其在优先队列中的顺序得到服务。优先队列往往用[**堆**](https://zh.wikipedia.org/wiki/%E5%A0%86_%28%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%29)来实现。
 
-### 操作
+### 1. 操作
 
 优先队列至少需要支持下述操作：
 
@@ -18,7 +18,7 @@
 * 合并多个优先队列
 * 调整一个元素的优先级
 
-#### 典型实现
+### 2. 典型实现
 
 出于性能考虑，优先队列用[堆](https://zh.wikipedia.org/wiki/%E5%A0%86_%28%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%29)来实现，具有O\(log n\)时间复杂度的插入元素性能，O\(n\)的初始化构造的时间复杂度。如果使用[自平衡二叉查找树](https://zh.wikipedia.org/wiki/%E5%B9%B3%E8%A1%A1%E6%A0%91)，插入与删除的时间复杂度为O\(log n\)，构造二叉树的时间复杂度为O\(n log n\)。
 
@@ -28,7 +28,7 @@
 
 对于整型、浮点型等具有有限值域的元素的数据类型，优先队列有更快的实现。
 
-### 库实现
+### 3. 库实现
 
 优先队列是计算机科学中的一类"[容器数据类型](https://zh.wikipedia.org/wiki/%E9%9B%86%E5%90%88_%28%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%29)"。
 
@@ -44,9 +44,15 @@
 
 [苹果](https://zh.wikipedia.org/wiki/%E8%8B%B9%E6%9E%9C%E5%85%AC%E5%8F%B8)的[Core Foundation](https://zh.wikipedia.org/w/index.php?title=Core_Foundation&action=edit&redlink=1)框架包括了一个最小堆结构[CFBinaryHeap](http://developer.apple.com/library/mac/#documentation/CoreFoundation/Reference/CFBinaryHeapRef/Reference/reference.html)。
 
-### 应用
+### 4. 应用
 
  优先队列常用于操作系统的[任务调度](https://zh.wikipedia.org/wiki/%E8%B0%83%E5%BA%A6_%28%E8%AE%A1%E7%AE%97%E6%9C%BA%29)，也是[贪心算法](https://zh.wikipedia.org/wiki/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)的重要组成部分。
 
-示例： leetcode 253. meeting rooms
+### 5. 相关例题 
+
+LeetCode 253, **meeting rooms， 会议室** \[Medium\].
+
+LeetCode 295, **Find Median from Data Stream**， **数据流的中位数** \[Hard\].
+
+LeetCode 719, **Find K-th Smallest Pair Distance**， **找出第 k 小的距离对** \[Hard\].
 
