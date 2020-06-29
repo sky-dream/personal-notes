@@ -19,7 +19,5 @@ description: 一个汽车零部件搬砖工的个人笔记
 
 **gitbook.io link:**
 
-{% hint style="info" %}
-\*\*\*\*[**https://xueming-x-xu.gitbook.io/personal-notes/**](https://xueming-x-xu.gitbook.io/personal-notes/)\*\*\*\*
-{% endhint %}
+> [**https://xueming-x-xu.gitbook.io/personal-notes/**](https://xueming-x-xu.gitbook.io/personal-notes/)\*\*\*\*
 
