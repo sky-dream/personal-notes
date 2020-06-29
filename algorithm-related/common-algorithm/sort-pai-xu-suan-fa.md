@@ -116,14 +116,6 @@ def merge_sorted_list(sorted_a, sorted_b):
     return new_sorted_seq
 ```
 
-* 原地[归并排序](https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F)— ![O\(n\log^2 n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/48c36489701bc8023db2f8d6bc809b14a7f8dd4e)如果使用最佳的现在版本
-* [二叉排序树](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91)排序（binary tree sort）— ![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)期望时间；![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)最坏时间；需要![O\(n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a)额外空间
-* [鸽巢排序](https://zh.wikipedia.org/wiki/%E9%B8%BD%E5%B7%A2%E6%8E%92%E5%BA%8F)（pigeonhole sort）—![O\(n+k\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/cebd2e4442e56daa59f3fab79339f952122c29e8)；需要![O\(k\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/f5ec39041121b14e8c2b1a986c9b04547b223e3c)额外空间
-* [基数排序](https://zh.wikipedia.org/wiki/%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F)（radix sort）—![{\displaystyle O\(nk\)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/16feb8341ea75a7bb8b3445959360dde7686db10)；需要![O\(n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a)额外空间
-* [侏儒排序](https://zh.wikipedia.org/wiki/%E4%BE%8F%E5%84%92%E6%8E%92%E5%BA%8F)（gnome sort）— ![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
-* [图书馆排序](https://zh.wikipedia.org/wiki/%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%8E%92%E5%BA%8F)（library sort）— ![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)期望时间；![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)最坏时间；需要![{\displaystyle \(1+\varepsilon \)n}](https://wikimedia.org/api/rest_v1/media/math/render/svg/0b18535a9414bcc2072d906174ce2d7ae80baeb0)额外空间
-* [块排序](https://zh.wikipedia.org/w/index.php?title=%E5%A1%8A%E6%8E%92%E5%BA%8F&action=edit&redlink=1)（block sort）— ![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
-
 #### 不稳定的排序
 
 * [选择排序](https://zh.wikipedia.org/wiki/%E9%81%B8%E6%93%87%E6%8E%92%E5%BA%8F)（selection sort）—![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
@@ -162,10 +154,7 @@ def test_select_sort():
 ```
 
 * [希尔排序](https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F)（shell sort）—![O\(n\log^2 n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/48c36489701bc8023db2f8d6bc809b14a7f8dd4e)如果使用最佳的现在版本
-* [克洛弗排序](https://zh.wikipedia.org/w/index.php?title=%E5%85%8B%E6%B4%9B%E5%BC%97%E6%8E%92%E5%BA%8F&action=edit&redlink=1)（Clover sort）—![O\(n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a)期望时间，![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)最坏情况[\[来源请求\]](https://zh.wikipedia.org/wiki/Wikipedia:%E5%88%97%E6%98%8E%E6%9D%A5%E6%BA%90)
-* [梳排序](https://zh.wikipedia.org/wiki/%E6%A2%B3%E6%8E%92%E5%BA%8F)— ![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
 * [堆排序](https://zh.wikipedia.org/wiki/%E5%A0%86%E6%8E%92%E5%BA%8F)（heap sort）—![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
-* [平滑排序](https://zh.wikipedia.org/w/index.php?title=%E5%B9%B3%E6%BB%91%E6%8E%92%E5%BA%8F&action=edit&redlink=1)（smooth sort）— ![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
 * [快速排序](https://zh.wikipedia.org/wiki/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F)（quick sort）—![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)期望时间，![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)最坏情况；对于大的、随机数列表一般相信是最快的已知排序
 
 ```python
@@ -198,16 +187,7 @@ def partition(array, beg, end):
     return right   # 新的 pivot 位置      
 ```
 
-* [内省排序](https://zh.wikipedia.org/wiki/%E5%86%85%E7%9C%81%E6%8E%92%E5%BA%8F)（introsort）—![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
-* [耐心排序](https://zh.wikipedia.org/wiki/%E8%80%90%E5%BF%83%E6%8E%92%E5%BA%8F)（patience sort）—![{\displaystyle O\(n\log n+k\)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/c9f1b7420b3d24b7300cd5378bafd652f35ef536)最坏情况时间，需要额外的![O\(n+k\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/cebd2e4442e56daa59f3fab79339f952122c29e8)空间，也需要找到[最长的递增子序列](https://zh.wikipedia.org/w/index.php?title=%E6%9C%80%E9%95%B7%E7%9A%84%E9%81%9E%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97&action=edit&redlink=1)（longest increasing subsequence）
 
-#### 不实用的排序
-
-* [Bogo排序](https://zh.wikipedia.org/wiki/Bogo%E6%8E%92%E5%BA%8F)— ![{\displaystyle O\(n\times n!\)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/2baf5437a72d857ecaca6e60a4101f934eb4b94d)，最坏的情况下期望时间为无穷。
-* [Stupid排序](https://zh.wikipedia.org/w/index.php?title=Stupid%E6%8E%92%E5%BA%8F&action=edit&redlink=1)—![O\(n^{3}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6b04f5c5cfea38f43406d9442387ad28555e2609);递归版本需要![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)额外存储器
-* [珠排序](https://zh.wikipedia.org/wiki/%E7%8F%A0%E6%8E%92%E5%BA%8F)（bead sort）— ![O\(n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a) 或 ![O\({\sqrt  {n}}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/f5526ab1252c0f682bbe07c0ad67c0f29de5522b),但需要特别的硬件
-* [煎饼排序](https://zh.wikipedia.org/wiki/%E7%85%8E%E9%A4%85%E6%8E%92%E5%BA%8F)—![O\(n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a),但需要特别的硬件
-* [臭皮匠排序](https://zh.wikipedia.org/wiki/%E8%87%AD%E7%9A%AE%E5%8C%A0%E6%8E%92%E5%BA%8F)（stooge sort）算法简单，但需要约![{\displaystyle n^{2.7}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/0cd84982291be85144f373b0ab62c553a0119c24)的时间
 
 ### 简要比较
 
