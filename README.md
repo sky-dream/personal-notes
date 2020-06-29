@@ -13,17 +13,9 @@ description: 一个汽车零部件搬砖工的个人笔记
 
 好好学习，天天向上
 
-{% hint style="info" %}
-keep healthy, 坚持锻炼身体。
-{% endhint %}
+**github link:**
 
-Hello world !
-
-{% code title="hello\_world.py" %}
-```python
-print("Hello world")
-```
-{% endcode %}
+> [https://github.com/sky-dream](https://github.com/sky-dream)
 
 **gitbook.io link:**
 
