@@ -80,7 +80,7 @@ function visit(node n)
 
 [https://en.wikipedia.org/wiki/Topological\_sorting](https://en.wikipedia.org/wiki/Topological_sorting)
 
-相关例题
+### 相关例题
 
 1. LeetCode 269, Alien Dictionary 外星词典.
 
