@@ -106,15 +106,15 @@ memset(rank,0,sizeof(rank));
 
 ### 5. 相关例题
 
-LeetCode 200, Number\_of\_Islands， 岛屿数量.
+LeetCode 200, Number\_of\_Islands， 岛屿数量 \[Medium\].
 
-LeetCode 547, Friend\_Circles， 朋友圈.
+LeetCode 547, Friend\_Circles， 朋友圈 \[Medium\].
 
-LeetCode 685, Redundant\_Connection\_II，冗余连接 II
+LeetCode 685, Redundant\_Connection\_II，冗余连接 II \[Hard\].
 
-LeetCode 1049, Last Stone Weight II， 最后一块石头的重量 II
+LeetCode 1049, Last Stone Weight II， 最后一块石头的重量 II \[Medium\].
 
-LeetCode 128, Longest Consecutive Sequence， 最长连续序列
+LeetCode 128, Longest Consecutive Sequence， 最长连续序列 \[Hard\].
 
 
 
