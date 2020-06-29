@@ -82,5 +82,5 @@ function visit(node n)
 
 ### 相关例题
 
-1. LeetCode 269, Alien Dictionary 外星词典.
+LeetCode 269, Alien Dictionary 外星词典.
 
