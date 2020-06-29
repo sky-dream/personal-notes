@@ -12,7 +12,7 @@
     * [UnionFind并查集](algorithm-related/data-structure/unionfind-bing-cha-ji.md)
   * [Common algorithm](algorithm-related/common-algorithm/README.md)
     * [Sort 排序算法](algorithm-related/common-algorithm/sort-pai-xu-suan-fa.md)
-    * [拓补排序](algorithm-related/common-algorithm/tuo-bu-pai-xu/README.md)
+    * [Topological sorting 拓补排序](algorithm-related/common-algorithm/tuo-bu-pai-xu/README.md)
       * [LeetCode 269, Alien Dictionary](algorithm-related/common-algorithm/tuo-bu-pai-xu/leet-code-269.md)
     * [Recursion 递归](algorithm-related/common-algorithm/recursion-di-gui.md)
     * [BackTracking回溯](algorithm-related/common-algorithm/backtracking-hui-su.md)
