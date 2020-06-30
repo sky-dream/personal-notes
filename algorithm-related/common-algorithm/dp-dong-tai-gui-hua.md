@@ -26,11 +26,7 @@
 
 [背包问题](https://zh.wikipedia.org/wiki/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98)作为[NP完全](https://zh.wikipedia.org/wiki/NP%E5%AE%8C%E5%85%A8)问题，暂时不存在[多项式时间算法](https://zh.wikipedia.org/wiki/%E5%A4%9A%E9%A0%85%E5%BC%8F%E6%99%82%E9%96%93)。动态规划属于背包问题求解最优解的可行方法之一。此外，求解背包问题最优解还有搜索法等，近似解还有[贪心法](https://zh.wikipedia.org/wiki/%E8%B4%AA%E5%BF%83%E6%B3%95)等，分数背包问题有最优贪心解等。 背包问题具有最优子结构和重叠子问题。动态规划一般用于求解背包问题中的整数背包问题（即每种物品所选的个数必须是整数）。 解整数背包问题： 设有![n](https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b)件物品，每件价值记为![ P\_i ](https://wikimedia.org/api/rest_v1/media/math/render/svg/3ba1396129f7be3c7f828a571b6649e6807d10d3)，每件体积记为![ V\_i ](https://wikimedia.org/api/rest_v1/media/math/render/svg/f300b83673e961a9d48f3862216b167f94e5668c)，用一个最大容积为![{\displaystyle V\_{\text{max}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/550aaeaf825bba56d6f276d151e6830e5ee53f37)的背包，求装入物品的最大价值。 用一个数组![{\displaystyle f\[i,v\]}](https://wikimedia.org/api/rest_v1/media/math/render/svg/3e7902b9ed73afc6f07f04f74ba5cb2d7b4b3fd7)表示取![i](https://wikimedia.org/api/rest_v1/media/math/render/svg/add78d8608ad86e54951b8c8bd6c8d8416533d20)件商品填充一个容积为v的背包的最大价值，显然问题的解就是![{\displaystyle f\[n,V\_{\text{max}}\]}](https://wikimedia.org/api/rest_v1/media/math/render/svg/850b012cc35dcc798a549e5675d3214c374de84f)。
 
-![{\displaystyle f\[i,v\]={\begin{cases}f\[i-1,v\],v&amp;lt;V\_{i}\\\max\{f\[i-1,v\],f\[i-1,v-V\_{i}\]+P\_{i}\},v\geq V\_{i}\\0,iv=0\\\end{cases}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/dd9c97f255a11758a2f19098205661f90cf2fa81)
-
 对于特例0 1背包问题（即每件物品最多放1件，否则不放入）的问题，状态转移方程：
-
-![{\displaystyle f\[i,v\]={\begin{cases}f\[i-1,v\],v&amp;lt;V\_{i}\\\max\{f\[i-1,v\],f\[i-1,v-V\_{i}\]+P\_{i}\},v\geq V\_{i}\\0,iv=0\\\end{cases}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/dd9c97f255a11758a2f19098205661f90cf2fa81)
 
  参考[C++](https://zh.wikipedia.org/wiki/C%2B%2B)代码（不含include和数组声明）
 
