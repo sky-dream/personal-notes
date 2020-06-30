@@ -1,4 +1,4 @@
-# TopologicalSort 拓补排序
+# Topological sorting 拓补排序
 
 在[计算机科学](https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6)领域，有向图的拓扑排序是其顶点的线性排序，使得对于从顶点![ u ](https://wikimedia.org/api/rest_v1/media/math/render/svg/c3e6bb763d22c20916ed4f0bb6bd49d7470cffd8)到顶点的每个[有向边](https://zh.wikipedia.org/wiki/%E6%9C%89%E5%90%91%E8%BE%B9)![{\displaystyle uv}](https://wikimedia.org/api/rest_v1/media/math/render/svg/4e6b4c628431f1c0bdf17baf5b94d2f46caa4c5f)，![ u ](https://wikimedia.org/api/rest_v1/media/math/render/svg/c3e6bb763d22c20916ed4f0bb6bd49d7470cffd8)在排序中都在![{\displaystyle v}](https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597)之前。
 
