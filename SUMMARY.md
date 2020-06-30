@@ -8,6 +8,7 @@
     * [String字符串](algorithm-related/data-structure/string-zi-fu-chuan.md)
     * [Stack堆栈](algorithm-related/data-structure/dui-zhan.md)
     * [Queue队列](algorithm-related/data-structure/dui-lie-1.md)
+    * [BinaryTree二叉树](algorithm-related/data-structure/binarytree-er-cha-shu.md)
     * [PriorityQueue优先队列](algorithm-related/data-structure/you-xian-dui-lie.md)
     * [UnionFind并查集](algorithm-related/data-structure/unionfind-bing-cha-ji.md)
   * [Common algorithm](algorithm-related/common-algorithm/README.md)
