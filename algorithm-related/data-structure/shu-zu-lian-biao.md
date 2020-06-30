@@ -6,15 +6,23 @@
 
 最简单的数据结构类型是**一维数组**。例如，索引为0到9的32位整数数组，可作为在存储器地址2000，2004，2008，...2036中，存储10个变量，因此索引为i的元素即在存储器中的2000+4×i地址。数组第一个元素的存储器地址称为第一地址或基础地址。
 
-**二维数组**，对应于数学上的[矩阵](https://zh.wikipedia.org/wiki/%E7%9F%A9%E9%99%A3)概念，可表示为二维矩形格。例如：![{\displaystyle a={\begin{bmatrix}3&amp;6&amp;2\\0&amp;1&amp;-4\\2&amp;-1&amp;0\end{bmatrix}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/f3fe7cbb32984a8abfa8a8c364ad767599f8a6c9)
-
-在[C语言](https://zh.wikipedia.org/wiki/C%E8%AF%AD%E8%A8%80)中表示为\`int a\[3\]\[3\] = ;
+**二维数组**，对应于数学上的[矩阵](https://zh.wikipedia.org/wiki/%E7%9F%A9%E9%99%A3)概念，可表示为二维矩形格。
 
 ![](../../.gitbook/assets/pi-zhu-20200423-004403.png)
 
 ![](../../.gitbook/assets/pi-zhu-20200423-004403%20%282%29.png)
 
-![](../../.gitbook/assets/pi-zhu-20200423-004403%20%284%29.png)
+## 相关例题
 
+LeetCode 268, **缺失数字** \[Easy\].
 
+LeetCode 031, **下一个排列**   \[Medium\].
+
+LeetCode 189, **旋转数组**   \[Easy\].
+
+LeetCode 719, **找出第 k 小的距离对**   \[Hard\].
+
+LeetCode 153, **寻找旋转排序数组中的最小值**   \[Medium\].
+
+LeetCode 238, **除自身以外数组的乘积**   \[Medium\].
 
