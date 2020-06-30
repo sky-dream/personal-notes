@@ -42,8 +42,6 @@ wikipedia 对算法的解释如下：
 
 ### 分类
 
-
-
 * 基本算法
   * [枚举](https://zh.wikipedia.org/wiki/%E6%9E%9A%E4%B8%BE)
   * [搜索](https://zh.wikipedia.org/wiki/%E6%90%9C%E7%B4%A2_%28%E8%AE%A1%E7%AE%97%E6%9C%BA%29)
@@ -65,11 +63,10 @@ wikipedia 对算法的解释如下：
   * [匹配算法](https://zh.wikipedia.org/w/index.php?title=%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95&action=edit&redlink=1)
   * [分团问题](https://zh.wikipedia.org/wiki/%E5%88%86%E5%9C%98%E5%95%8F%E9%A1%8C)
 * [动态规划](https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92)
-* 其他
-  * [数值分析](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90)
-  * [加密算法](https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95)
-  * [排序算法](https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
-  * [检索](https://zh.wikipedia.org/wiki/%E6%AA%A2%E7%B4%A2)算法
-  * [随机化算法](https://zh.wikipedia.org/wiki/%E9%9A%8F%E6%9C%BA%E5%8C%96%E7%AE%97%E6%B3%95)
-  * 关于并行算法，请参阅[并行计算](https://zh.wikipedia.org/wiki/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97)一文。
+* [数值分析](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90)
+* [加密算法](https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95)
+* [排序算法](https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
+* [检索](https://zh.wikipedia.org/wiki/%E6%AA%A2%E7%B4%A2)算法
+* [随机化算法](https://zh.wikipedia.org/wiki/%E9%9A%8F%E6%9C%BA%E5%8C%96%E7%AE%97%E6%B3%95)
+* 关于并行算法，请参阅[并行计算](https://zh.wikipedia.org/wiki/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97)一文。
 
