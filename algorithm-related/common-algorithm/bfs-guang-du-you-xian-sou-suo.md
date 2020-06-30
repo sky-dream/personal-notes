@@ -69,19 +69,19 @@ void TRAVEL_BFS(VLink G[], bool visited[], int n) {
 
 ## 特性
 
-#### 空间复杂度\[[编辑](https://zh.wikipedia.org/w/index.php?title=%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2&action=edit&section=6)\]
+#### 空间复杂度
 
 因为所有节点都必须被存储，因此BFS的空间复杂度为 O\(\|V\|+\|E\|\)，其中 \|V\|是节点的数目，而 \|E\|是图中边的数目。注：另一种说法称BFS的空间复杂度为O\(B^{M}\)，其中B是最大[分支系数](https://zh.wikipedia.org/wiki/%E5%88%86%E6%94%AF%E5%9B%A0%E5%AD%90)，而M是树的最长路径长度。由于对空间的大量需求，因此BFS并不适合解非常大的问题，对于类似的问题，应用[IDDFS](https://zh.wikipedia.org/wiki/%E8%BF%AD%E4%BB%A3%E6%B7%B1%E5%8C%96%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)以达节省空间的效果。
 
-#### 时间复杂度\[[编辑](https://zh.wikipedia.org/w/index.php?title=%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2&action=edit&section=7)\]
+#### 时间复杂度
 
 最差情形下，BFS必须查找所有到可能节点的所有路径，因此其时间复杂度为 O\(\|V\|+\|E\|\)，其中 \|V\|是节点的数目，而 \|E\|是图中边的数目。
 
-#### 完全性\[[编辑](https://zh.wikipedia.org/w/index.php?title=%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2&action=edit&section=8)\]
+#### 完全性
 
 广度优先搜索算法具有完全性。这意指无论图形的种类如何，只要目标存在，则BFS一定会找到。然而，若目标不存在，且图为无限大，则BFS将不收敛（不会结束）。
 
-#### 最佳解\[[编辑](https://zh.wikipedia.org/w/index.php?title=%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2&action=edit&section=9)\]
+#### 最佳解
 
 若所有边的长度相等，广度优先搜索算法是最佳解——亦即它找到的第一个解，距离根节点的边数目一定最少；但对一般的图来说，BFS并不一定回传最佳解。这是因为当图形为加权图（亦即各边长度不同）时，BFS仍然回传从根节点开始，经过边数目最少的解；而这个解距离根节点的距离不一定最短。这个问题可以使用考虑各边权值，BFS的改良算法[成本一致搜索法](https://zh.wikipedia.org/wiki/%E6%88%90%E6%9C%AC%E4%B8%80%E8%87%B4%E6%90%9C%E5%B0%8B%E6%B3%95)来解决。然而，若非加权图形，则所有边的长度相等，BFS就能找到最近的最佳解。
 
