@@ -4,7 +4,7 @@
 
 #### 稳定的排序
 
-* [冒泡排序](https://zh.wikipedia.org/wiki/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F)（bubble sort）— ![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+* 冒泡排序（bubble sort） - O\(N^2\)
 
 ```python
 import random
@@ -40,7 +40,7 @@ def test_bubble_sort():
 """
 ```
 
-* [插入排序](https://zh.wikipedia.org/wiki/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F)（insertion sort）—![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+* 插入排序（insertion sort）- O\(N^2\)
 
 ```python
 def insertion_sort(seq):
@@ -72,9 +72,9 @@ def insertion_sort(seq):
 """
 ```
 
-* [桶排序](https://zh.wikipedia.org/wiki/%E6%A1%B6%E6%8E%92%E5%BA%8F)（bucket sort）—![O\(n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a)；需要![O\(k\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/f5ec39041121b14e8c2b1a986c9b04547b223e3c)额外空间
-* [计数排序](https://zh.wikipedia.org/wiki/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F)（counting sort）—![O\(n+k\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/cebd2e4442e56daa59f3fab79339f952122c29e8)；需要![O\(n+k\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/cebd2e4442e56daa59f3fab79339f952122c29e8)额外空间
-* [归并排序](https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F)（merge sort）—![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)；需要![O\(n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a)额外空间
+* 桶排序（bucket sort）—O\(n\)；需要O\(k\)额外空间
+* 计数排序（counting sort）—O\(n+k\)；需要O\(n+k\)额外空间
+* 归并排序（merge sort）—O\(logN\)；需要O\(n+k\)额外空间
 
 ```python
 def merge_sort(seq):
@@ -117,7 +117,7 @@ def merge_sorted_list(sorted_a, sorted_b):
 
 #### 不稳定的排序
 
-* [选择排序](https://zh.wikipedia.org/wiki/%E9%81%B8%E6%93%87%E6%8E%92%E5%BA%8F)（selection sort）—![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)
+* 选择排序（selection sort）—O\(n^2\)
 
 ```python
 def select_sort(seq):
@@ -152,9 +152,9 @@ def test_select_sort():
 """
 ```
 
-* [希尔排序](https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F)（shell sort）—![O\(n\log^2 n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/48c36489701bc8023db2f8d6bc809b14a7f8dd4e)如果使用最佳的现在版本
-* [堆排序](https://zh.wikipedia.org/wiki/%E5%A0%86%E6%8E%92%E5%BA%8F)（heap sort）—![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)
-* [快速排序](https://zh.wikipedia.org/wiki/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F)（quick sort）—![O\(n\log n\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1)期望时间，![O\(n^{2}\)](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392)最坏情况；对于大的、随机数列表一般相信是最快的已知排序
+* 希尔排序（shell sort）—O\(logN^2\)如果使用最佳的现在版本
+* 堆排序（heap sort）—O\(nlogN\)
+* 快速排序（quick sort）—O\(nlogN\)期望时间，O\(N^2\)最坏情况；对于大的、随机数列表一般相信是最快的已知排序
 
 ```python
 def quicksort_inplace(array, beg, end):    

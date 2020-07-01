@@ -5,13 +5,13 @@
 * Find：确定元素属于哪⼀一个⼦子集。它可以被⽤用来确定两个元素是否 属于同⼀一⼦子集。 
 * Union：将两个⼦子集合并成同⼀一个集合。
 
-由于支持这两种操作，一个不相交集也常被称为联合-查找数据结构（union-find data structure）或合并-查找集合（merge-find set）。其他的重要方法，`MakeSet`，用于创建单元素集合。有了这些方法，许多经典的[划分问题](https://zh.wikipedia.org/w/index.php?title=%E5%88%92%E5%88%86%E9%97%AE%E9%A2%98&action=edit&redlink=1)可以被解决。
+由于支持这两种操作，一个不相交集也常被称为联合-查找数据结构（union-find data structure）或合并-查找集合（merge-find set）。其他的重要方法，`MakeSet`，用于创建单元素集合。有了这些方法，许多经典的划分问题可以被解决。
 
 为了更加精确的定义这些方法，需要定义如何表示集合。一种常用的策略是为每个集合选定一个固定的元素，称为代表，以表示整个集合。接着，`Find(x)` 返回`x`所属集合的代表，而`Union`使用两个集合的代表作为参数。
 
 ### 1. 并查集森林
 
-**并查集森林**是一种将每一个集合以[树](https://zh.wikipedia.org/wiki/%E6%A0%91_%28%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%29)表示的数据结构，其中每一个节点保存着到它的父节点的[引用](https://zh.wikipedia.org/wiki/%E5%BC%95%E7%94%A8)（见[意大利面条堆栈](https://zh.wikipedia.org/w/index.php?title=%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2%E6%9D%A1%E5%A0%86%E6%A0%88&action=edit&redlink=1)）。这个数据结构最早由[Bernard A. Galler](https://zh.wikipedia.org/w/index.php?title=Bernard_A._Galler&action=edit&redlink=1)和[Michael J. Fischer](https://zh.wikipedia.org/w/index.php?title=Michael_J._Fischer&action=edit&redlink=1)于1964年提出，[\[1\]](https://zh.wikipedia.org/wiki/%E5%B9%B6%E6%9F%A5%E9%9B%86#cite_note-1)但是经过了数年才完成了精确的分析。
+**并查集森林**是一种将每一个集合以树表示的数据结构，其中每一个节点保存着到它的父节点的引用（见意大利面条堆栈）。这个数据结构最早由Bernard A. Galler和Michael J. Fischer于1964年提出，\[1\]但是经过了数年才完成了精确的分析。
 
 在并查集森林中，每个集合的代表即是集合的根节点。“查找”根据其父节点的引用向根行进直到到底树根。“联合”将两棵树合并到一起，这通过将一棵树的根连接到另一棵树的根。
 

@@ -1,6 +1,6 @@
 # LinkedList链表
 
-**链表**（Linked list）是一种常见的基础数据结构，是一种[线性表](https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E8%A1%A8)，但是并不会按线性的顺序存储数据，而是在每一个节点里存到下一个节点的[指针](https://zh.wikipedia.org/wiki/%E6%8C%87%E6%A8%99_%28%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8%29)\(Pointer\)。由于不必须按顺序存储，链表在插入的时候可以达到O\(1\)的[复杂度](https://zh.wikipedia.org/wiki/%E8%A4%87%E9%9B%9C%E5%BA%A6)，比另一种线性表[顺序表](https://zh.wikipedia.org/wiki/%E9%A1%BA%E5%BA%8F%E8%A1%A8)快得多，但是查找一个节点或者访问特定编号的节点则需要O\(n\)的时间，而顺序表相应的时间复杂度分别是O\(logn\)和O\(1\)。
+**链表**（Linked list）是一种常见的基础数据结构，是一种线性表，但是并不会按线性的顺序存储数据，而是在每一个节点里存到下一个节点的指针\(Pointer\)。由于不必须按顺序存储，链表在插入的时候可以达到O\(1\)的复杂度，比另一种线性表顺序表快得多，但是查找一个节点或者访问特定编号的节点则需要O\(n\)的时间，而顺序表相应的时间复杂度分别是O\(logn\)和O\(1\)。
 
 使用链表结构可以克服数组链表需要预先知道数据大小的缺点，链表结构可以充分利用计算机内存空间，实现灵活的内存动态管理。但是链表失去了数组随机读取的优点，同时链表由于增加了结点的指针域，空间开销比较大。
 
@@ -8,27 +8,27 @@
 
 ### 1. 单向链表
 
-链表中最简单的一种是单向链表，它包含两个域，一个信息域和一个指针域。这个链接指向列表中的下一个节点，而最后一个节点则指向一个空值。[![Singly-linked-list.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/408px-Singly-linked-list.svg.png)](https://zh.wikipedia.org/wiki/File:Singly-linked-list.svg)  
+链表中最简单的一种是单向链表，它包含两个域，一个信息域和一个指针域。这个链接指向列表中的下一个节点，而最后一个节点则指向一个空值。![Singly-linked-list.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/408px-Singly-linked-list.svg.png)  
 一个单向链表包含两个值: 当前节点的值和一个指向下一个节点的链接
 
 一个单向链表的节点被分成两个部分。第一个部分保存或者显示关于节点的信息，第二个部分存储下一个节点的地址。单向链表只可向一个方向遍历。
 
 ### 2. 双向链表
 
-一种更复杂的链表是“双向链表”或“双面链表”。每个节点有两个连接：一个指向前一个节点，（当此“连接”为第一个“连接”时，指向空值或者空列表）；而另一个指向下一个节点，（当此“连接”为最后一个“连接”时，指向空值或者空列表）[![Doubly-linked-list.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)](https://zh.wikipedia.org/wiki/File:Doubly-linked-list.svg)  
+一种更复杂的链表是“双向链表”或“双面链表”。每个节点有两个连接：一个指向前一个节点，（当此“连接”为第一个“连接”时，指向空值或者空列表）；而另一个指向下一个节点，（当此“连接”为最后一个“连接”时，指向空值或者空列表）![Doubly-linked-list.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)  
 一个双向链表有三个整数值: 数值, 向后的节点链接, 向前的节点链接
 
-在一些低级语言中, [XOR-linking](https://zh.wikipedia.org/wiki/XOR_linked_list) 提供一种在双向链表中通过用一个词来表示两个链接（前后），我们通常不提倡这种做法。
+在一些低级语言中, XOR-linking 提供一种在双向链表中通过用一个词来表示两个链接（前后），我们通常不提倡这种做法。
 
 **双向链表**也叫**双链表**。**双向链表**中不仅有指向后一个节点的指针，还有指向前一个节点的指针。这样可以从任何一个节点访问前一个节点，当然也可以访问后一个节点，以至整个链表。一般是在需要大批量的另外储存数据在链表中的位置的时候用。双向链表也可以配合下面的其他链表的扩展使用。
 
-由于另外储存了指向链表内容的指针，并且可能会修改相邻的节点，有的时候第一个节点可能会被删除或者在之前添加一个新的节点。这时候就要修改指向首个节点的指针。有一种方便的可以消除这种特殊情况的方法是在最后一个节点之后、第一个节点之前储存一个永远不会被删除或者移动的虚拟节点，形成一个下面说的循环链表。这个虚拟节点之后的节点就是真正的第一个节点。这种情况通常可以用这个虚拟节点直接表示这个链表，对于把链表单独的存在[数组](https://zh.wikipedia.org/wiki/%E6%95%B0%E7%BB%84)里的情况，也可以直接用这个数组表示链表并用第0个或者第-1个（如果编译器支持）节点固定的表示这个虚拟节点。
+由于另外储存了指向链表内容的指针，并且可能会修改相邻的节点，有的时候第一个节点可能会被删除或者在之前添加一个新的节点。这时候就要修改指向首个节点的指针。有一种方便的可以消除这种特殊情况的方法是在最后一个节点之后、第一个节点之前储存一个永远不会被删除或者移动的虚拟节点，形成一个下面说的循环链表。这个虚拟节点之后的节点就是真正的第一个节点。这种情况通常可以用这个虚拟节点直接表示这个链表，对于把链表单独的存在数组里的情况，也可以直接用这个数组表示链表并用第0个或者第-1个（如果编译器支持）节点固定的表示这个虚拟节点。
 
 ### 3. 循环链表
 
 在一个 **循环链表**中, 首节点和末节点被连接在一起。这种方式在单向和双向链表中皆可实现。要转换一个循环链表，你开始于任意一个节点然后沿着列表的任一方向直到返回开始的节点。再来看另一种方法，循环链表可以被视为“无头无尾”。这种列表很利于节约数据存储缓存， 假定你在一个列表中有一个对象并且希望所有其他对象迭代在一个非特殊的排列下。
 
-指向整个列表的指针可以被称作访问指针。[![Circularly-linked-list.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Circularly-linked-list.svg/350px-Circularly-linked-list.svg.png)](https://zh.wikipedia.org/wiki/File:Circularly-linked-list.svg)  
+指向整个列表的指针可以被称作访问指针。![Circularly-linked-list.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Circularly-linked-list.svg/350px-Circularly-linked-list.svg.png)  
 用单向链表构建的循环链表
 
 **循环链表**中第一个节点之前就是最后一个节点，反之亦然。循环链表的**无边界**使得在这样的链表上设计算法会比普通链表更加容易。对于新加入的节点应该是在第一个节点之前还是最后一个节点之后可以根据实际要求灵活处理，区别不大\(详见下面实例代码\)。当然，如果只会在最后插入数据（或者只会在之前），处理也是很容易的。

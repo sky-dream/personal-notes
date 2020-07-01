@@ -1,8 +1,8 @@
 # Queue队列
 
-**队列**，又称为**伫列**（queue），是[先进先出](https://zh.wikipedia.org/wiki/%E5%85%88%E9%80%B2%E5%85%88%E5%87%BA%E6%BC%94%E7%AE%97%E6%B3%95)（FIFO, First-In-First-Out）的[线性表](https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E8%A1%A8)。在具体应用中通常用[链表](https://zh.wikipedia.org/wiki/%E9%93%BE%E8%A1%A8)或者[数组](https://zh.wikipedia.org/wiki/%E6%95%B0%E7%BB%84)来实现。队列只允许在后端（称为rear）进行插入操作，在前端（称为front）进行删除操作。
+**队列**，（queue），是先进先出（FIFO, First-In-First-Out）的线性表。在具体应用中通常用链表或者数组来实现。队列只允许在后端（称为rear）进行插入操作，在前端（称为front）进行删除操作。
 
-队列的操作方式和[堆栈](https://zh.wikipedia.org/wiki/%E5%A0%86%E6%A0%88)类似，唯一的区别在于队列只允许新数据在后端进行添加。
+队列的操作方式和堆栈类似，唯一的区别在于队列只允许新数据在后端进行添加。
 
 #### 单链队列
 

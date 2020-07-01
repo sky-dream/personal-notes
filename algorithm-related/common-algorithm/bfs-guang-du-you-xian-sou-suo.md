@@ -8,9 +8,9 @@ description: >-
 
 ### 作法
 
-BFS是一种[盲目搜索法](https://zh.wikipedia.org/w/index.php?title=%E7%9B%B2%E7%9B%AE%E6%90%9C%E5%B0%8B%E6%B3%95&action=edit&redlink=1)，目的是系统地展开并检查[图](https://zh.wikipedia.org/wiki/%E5%9B%BE)中的所有节点，以找寻结果。换句话说，它并不考虑结果的可能地址，彻底地搜索整张图，直到找到结果为止。BFS并不使用[经验法则算法](https://zh.wikipedia.org/wiki/%E5%90%AF%E5%8F%91%E5%BC%8F%E6%90%9C%E7%B4%A2)。
+BFS是一种盲目搜索法，目的是系统地展开并检查图中的所有节点，以找寻结果。换句话说，它并不考虑结果的可能地址，彻底地搜索整张图，直到找到结果为止。BFS并不使用经验法则算法。
 
-从算法的观点，所有因为展开节点而得到的子节点都会被加进一个[先进先出](https://zh.wikipedia.org/wiki/%E5%85%88%E9%80%B2%E5%85%88%E5%87%BA)的[队列](https://zh.wikipedia.org/wiki/%E9%98%9F%E5%88%97)中。一般的实现里，其邻居节点尚未被检验过的节点会被放置在一个被称为 open 的容器中（例如队列或是[链表](https://zh.wikipedia.org/wiki/%E9%80%A3%E7%B5%90%E4%B8%B2%E5%88%97)），而被检验过的节点则被放置在被称为 closed 的容器中。（open-closed表）
+从算法的观点，所有因为展开节点而得到的子节点都会被加进一个先进先出的队列中。一般的实现里，其邻居节点尚未被检验过的节点会被放置在一个被称为 open 的容器中（例如队列或是链表），而被检验过的节点则被放置在被称为 closed 的容器中。（open-closed表）
 
 ### 实现方法
 

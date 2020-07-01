@@ -1,10 +1,10 @@
 # Stack堆栈
 
-**堆栈**（英语：stack）又称为**栈**或**堆叠**，是[计算机科学](https://zh.wikipedia.org/wiki/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%A7%91%E5%AD%B8)中的一种[抽象数据类型](https://zh.wikipedia.org/wiki/%E6%8A%BD%E8%B1%A1%E8%B3%87%E6%96%99%E5%9E%8B%E5%88%A5)，只允许在有序的线性数据集合的一端（称为堆栈顶端，英语：top）进行加入数据（英语：push）和移除数据（英语：pop）的运算。因而按照后进先出（LIFO, Last In First Out）的原理运作。
+**堆栈**（英语：stack）又称为**栈**或**堆叠**，是计算机科学中的一种抽象数据类型，只允许在有序的线性数据集合的一端（称为堆栈顶端，英语：top）进行加入数据（英语：push）和移除数据（英语：pop）的运算。因而按照后进先出（LIFO, Last In First Out）的原理运作。
 
-常与另一种有序的线性数据集合[队列](https://zh.wikipedia.org/wiki/%E4%BD%87%E5%88%97)相提并论。
+常与另一种有序的线性数据集合队列相提并论。
 
-堆栈常用一维[数组](https://zh.wikipedia.org/wiki/%E9%99%A3%E5%88%97)或[链表](https://zh.wikipedia.org/wiki/%E9%80%A3%E7%B5%90%E4%B8%B2%E5%88%97)来实现。
+堆栈常用一维数组或链表来实现。
 
 ### 1. 操作
 
