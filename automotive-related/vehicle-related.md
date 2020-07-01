@@ -4,13 +4,7 @@
 
 ![](../.gitbook/assets/csm_automotive-connectivity_full_slider_1920_5b98be9eb9.jpg)
 
-![](../.gitbook/assets/csm_automotive-connectivity_full_slider_1920_5b98be9eb9.jpg)
-
 ![](../.gitbook/assets/csm_vec_genericcar_transparent_front_rgb_lowres_0d78b6b4ac.jpg)
-
-![](../.gitbook/assets/csm_vec_genericcar_transparent_front_rgb_lowres_0d78b6b4ac.jpg)
-
-![](../.gitbook/assets/csm_adas_2_graphic_59d7917fb9.jpg)
 
 ![](../.gitbook/assets/csm_adas_2_graphic_59d7917fb9.jpg)
 
